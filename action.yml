@@ -1,0 +1,10 @@
+name: action de saludo 
+description: Esta acción imprime un saludo personalizado.
+inputs:
+  name:
+    description: El nombre de la persona a saludar.
+    required: true
+    default: 'Persona'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
